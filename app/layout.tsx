@@ -1,4 +1,5 @@
 import { GeistSans } from "geist/font/sans";
+import { Poppins } from "next/font/google";
 import "./globals.css";
 
 const defaultUrl = process.env.VERCEL_URL
@@ -11,6 +12,11 @@ export const metadata = {
   description: "The fastest way to build apps with Next.js and Supabase",
 };
 
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["300", "400", "500", "600", "700", "800"],
+});
+
 export default function RootLayout({
   children,
 }: {
@@ -18,7 +24,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={GeistSans.className}>
-      <body className="bg-background text-foreground">
+      <body className={`${poppins.className} text-[#091512]`}>
         <main className="min-h-screen flex flex-col items-center">
           {children}
         </main>

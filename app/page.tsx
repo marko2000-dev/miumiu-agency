@@ -24,7 +24,7 @@ export default async function Index() {
 
       <div className="flex flex-col gap-20 w-full h-full justify-center items-center px-7 md:px-80">
         <MainLogo width="756" className="hidden md:block h-min" />
-        <MainLogo width="auto" className="md:hidden h-min" />
+        <MainLogo width="auto" className="md:hidden h-min w-full" />
         <div className="flex flex-col gap-4 justify-center items-center px-7 md:px-0">
           <h1 className="text-2xl text-[#091512]">Website coming soon...</h1>
           <h3 className="text-md  md:text-lg text-[#091512] text-center">

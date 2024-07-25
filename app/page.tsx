@@ -15,7 +15,7 @@ export default async function Index() {
   }
 
   return (
-    <div className="flex-1 w-full flex flex-col gap-20 items-center justify-between h-full">
+    <div className="flex-1 w-full flex flex-col gap-20 items-center justify-between h-screen">
       <nav className="w-full flex justify-center border-b border-b-foreground/10 h-16">
         <div className="w-full max-w-4xl flex justify-end items-center p-3 text-sm">
           <AuthButton />
@@ -37,7 +37,7 @@ export default async function Index() {
         </div>
       </div>
 
-      <footer className="w-full border-t border-t-[#091512] border-opacity-20 text-[#091512] p-8 flex justify-center text-center text-sm">
+      <footer className="w-full border-t border-t-[#091512] border-opacity-20 text-[#091512] px-8 p-4 flex justify-center text-center text-sm">
         <p>Powered by MiuMiuAgency</p>
       </footer>
     </div>

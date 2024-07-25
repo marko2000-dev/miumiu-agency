@@ -1,11 +1,17 @@
-export const MainLogo = ({ className }: { className?: string }) => {
+export const MainLogo = ({
+  className,
+  width,
+}: {
+  className?: string;
+  width: string;
+}) => {
   return (
     <svg
       id="Layer_1"
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 351.18 56.69"
-      width="756"
+      width={width}
       height="auto"
       className={className}
     >

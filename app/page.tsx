@@ -23,11 +23,11 @@ export default async function Index() {
       </nav>
 
       <div className="flex flex-col gap-20 w-full h-full justify-center items-center px-7 md:px-80">
-        <MainLogo width="756" className="hidden md:block" />
-        <MainLogo width="auto" className="md:hidden" />
+        <MainLogo width="756" className="hidden md:block h-min" />
+        <MainLogo width="auto" className="md:hidden h-min" />
         <div className="flex flex-col gap-4 justify-center items-center px-7 md:px-0">
           <h1 className="text-2xl text-[#091512]">Website coming soon...</h1>
-          <h3 className="text-1xl text-[#091512] text-center">
+          <h3 className="text-md  md:text-lg text-[#091512] text-center">
             But if you are part of the agency, go to{" "}
             <a href="/login" className="text-[#0c6c77] underline">
               Login

@@ -25,7 +25,7 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <body className={`${poppins.className} text-[#091512]`}>
-        <main className="md:min-h-screen flex flex-col items-center h-screen">
+        <main className="md:min-h-screen flex flex-col items-center h-dvh">
           {children}
         </main>
       </body>

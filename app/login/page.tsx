@@ -84,6 +84,7 @@ export default function Login({
             name="email"
             placeholder="you@example.com"
             required
+            type="email"
           />
           <label className="text-md" htmlFor="password">
             Password
